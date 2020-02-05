@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>列表</title>
+		<!-- 应用样式 -->
+		<style>
+			/*语法格式*/
+			li{
+				/* 去掉黑点 */
+				list-style: none;
+				/* 设置宽高 */
+				width: 110px;
+				height: 40px;
+				/*文字水平居中*/
+				text-align: center;
+				/*文字垂直居中*/
+				line-height: 40px;
+				/*矩形弧形*/
+				border-radius: 5px;
+				/*动画特效*/
+				transition: 0.5s linear;
+			}
+			/*伪类  hover*/
+			/*鼠标经过的时候*/
+			li:hover{
+				/*字体颜色*/
+				color: white;
+				/*背景颜色*/
+				background-color: #ff5b36;
+				/*变换鼠标形状*/
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			存放文本的标签
+			html标签不足以支撑这个功能
+			css样式
+			注释的快捷键 Ctrl+/
+		-->
+		<!-- <p>今天天气非常不错</p> -->
+		<!-- <img src="../img/logo.svg"/> -->
+		
+		
+		<!--无序列表-->
+		<ul>
+			<li>热门</li>
+			<li>头条</li>
+			<li>视频</li>
+			<li>榜单</li>
+			<li>搞笑</li>
+			<li>社会</li>
+		</ul>
+		<!--有序列表-->
+	</body>
+</html>
