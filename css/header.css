@@ -1,0 +1,19 @@
+#header
+{
+	width: 100%;
+	height: 32px;
+}
+#headerLeft{
+	width: 49%;
+	height: 100%;
+	background-color: #D3D3D3;
+	/*左浮动*/
+	float: left;
+}
+#headerRight{
+	width: 50%;
+	height: 100%;
+	background-color: #DC143C;
+	/*左浮动*/
+	float: left;
+}
