@@ -2,18 +2,36 @@
 {
 	width: 100%;
 	height: 32px;
+	border-bottom: 1px solid black;
 }
 #headerLeft{
-	width: 49%;
+	width: 50%;
 	height: 100%;
-	background-color: #D3D3D3;
+	/* background-color: #D3D3D3; */
 	/*左浮动*/
 	float: left;
+	border: 0px;
 }
 #headerRight{
 	width: 50%;
 	height: 100%;
-	background-color: #DC143C;
+	/* background-color: #DC143C; */
 	/*左浮动*/
 	float: left;
+	border: 0px;
+}
+#headerLeft span{
+	line-height: 32px;
+}
+#headerRight ul{
+	list-style: none;
+	margin-left: 40%;
+}
+#headerRight ul li{
+	float: left;
+	line-height: 32px;
+	margin-left: 5px;
+}
+#headerRight ul li a{
+	text-decoration: none;
 }

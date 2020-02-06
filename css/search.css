@@ -1,4 +1,35 @@
 #search
 {
 	height: 293px;
+	border-top: 1px solid black;
+	font-size: 0px;
+}
+#logo{
+	text-align: center;
+}
+#logo img
+{
+	width: 270px;
+	height: 129px;
+}
+#searchFrame
+{
+	text-align: center;
+}
+#searchFrame input
+{
+	width: 536px;
+	height: 40px;
+	background-image: url(../img/camera.svg);
+	background-repeat: no-repeat;
+	background-size: 28px 28px;
+	background-position: right;
+}
+#searchFrame button
+{
+	width: 104px;
+	height: 40px;
+	background-color: #38f;
+	color: white;
+	border: 0px;
 }
