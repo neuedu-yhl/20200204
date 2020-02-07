@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>相对定位</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			/**
+			 * 
+			 提示：相对定位实际上被看作普通流定位模型的一部分，因为元素的位置相对于它在普通流中的位置。
+			 绝对定位相对于已定位的父级元素,如果父级元素没有定位,则
+			 相对于body
+			 */
+			#father
+			{
+				width: 100px;
+				height: 100px;
+				background-color: #0000FF;
+				margin-left: 10px;
+			}
+			#son
+			{
+				width: 80px;
+				height: 80px;
+				background-color: #008000;
+				position: absolute;
+				left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="father">
+			<div id="son">
+				
+			</div>
+		</div>
+		helloworld
+	</body>
+</html>
