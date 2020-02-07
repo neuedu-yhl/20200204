@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>float缺点</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#father{
+				border: 5px solid black;
+			}
+			#son1{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				float: left;
+				
+			}
+			#son2{
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				float: left;
+			}
+			#a{
+				width: 250px;
+				height: 100px;
+				background-color: purple;
+			}
+			#f1{
+				/*清除浮动*/
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<!--高度塌陷-->
+		<div id="father">
+			<div id="son1">1</div>
+			<div id="son2">2</div>
+			<div id="f1"></div>
+		</div>
+		<div id="a"></div>
+	</body>
+</html>
