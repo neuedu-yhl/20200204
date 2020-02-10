@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>弹性模型</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#container{
+				border: 1px solid black;
+				/*改为弹性盒子*/
+				display: flex;
+				/*改变主轴方向*/
+				flex-direction: row;
+				/*多行是否换行*/
+				flex-wrap: wrap;
+				height: 500px;
+				/*单行水平对齐方式*/
+				/* justify-content: center; */
+				/*单行垂直对齐方式*/
+				/* align-items: center; */
+				align-content: flex-start;
+			}
+			.divs{
+				width: 200px;
+				height: 100px;
+				background-color: #FF5B36;
+				border: 1px solid blue;
+			}
+			#four
+			{
+				order: -1;
+			}
+			#one
+			{
+				order: -2;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="divs" id="one">1</div>
+			<div class="divs">2</div>
+			<div class="divs">3</div>
+			<div class="divs" id="four">4</div>
+			<!-- <div class="divs">1</div> -->
+			<!-- <div class="divs">2</div>
+			<div class="divs">3</div>
+			<div class="divs">4</div>
+			<div class="divs">1</div>
+			<div class="divs">2</div>
+			<div class="divs">3</div>
+			<div class="divs">4</div>
+			<div class="divs">1</div>
+			<div class="divs">2</div>
+			<div class="divs">3</div>
+			<div class="divs">4</div> -->
+		</div>
+	</body>
+</html>
