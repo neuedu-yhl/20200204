@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>电池充电</title>
+		<style>
+			@keyframes getBattery{
+				0%{
+					width: 0px;
+					background-color: red;
+				}
+				25%{
+					background-color: yellow;
+					width: 50px;
+				}
+				50%{
+					background-color: green;
+					width: 100px;
+				}
+				75%{
+					background-color: green;
+					width: 150px;
+				}
+				100%{
+					background-color: green;
+					width: 200px;
+				}
+			}
+			#battery{
+				width: 200px;
+				height: 80px;
+				border: 1px solid black;	
+			}
+			#core{
+				width: 0px;
+				height: 80px;
+				background-color: #00FFFF;
+				animation: getBattery 5s;
+				animation-iteration-count: infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="battery">
+			<div id="core">
+				
+			</div>
+		</div>
+	</body>
+</html>
