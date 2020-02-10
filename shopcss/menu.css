@@ -1,0 +1,105 @@
+#menu
+{
+	width: 100%;
+	height: 143px;
+	background-color: white;
+}
+#menu #menuTop{
+	width: 100%;
+	height: 93px;
+	display: flex;
+}
+#menu #menuTop #menuTopLeft{
+	width: 10%;
+	height: 100%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#menu #menuTop #menuTopCenter{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#menu #menuTop #menuTopright{
+	width: 20%;
+	height: 100%;
+}
+#menu #menuTop #menuTopCenter ul{
+	list-style: none;
+}
+#menu #menuTop #menuTopCenter ul li a{
+	text-decoration: none;
+	color: black;
+}
+#menu #menuTop #menuTopCenter ul li{
+	display: inline-block;
+	margin-left: 50px;
+}
+#menu #menuTop #menuTopCenter ul li:first-child{
+	display: inline-block;
+	margin-left: 10px;
+}
+#menu #menuTop #menuTopright img
+{
+	width:40px;
+	height: 40px;
+}
+#menu #menuTop #menuTopright
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+#menu #menuBottom{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+#menu #mbs
+{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	color: whitesmoke;
+}
+#menu #mbs ul{
+	list-style: none;
+	height: 100%;
+}
+#menu #mbs ul li{
+	display: inline-block;
+	border-right: 1px solid whitesmoke;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+#menu #mbs ul li:hover{
+	border-top: 2px solid blue;
+}
+#menu #mbs ul li:first-child{
+	width: 15%;
+}
+#menu #mbs ul li:nth-child(2){
+	width: 10%;
+}
+#menu #mbs ul li:nth-child(3){
+	width: 10%;
+}
+#menu #mbs ul li:nth-child(4){
+	width: 10%;
+}
+#menu #mbs ul li:nth-child(5){
+	width: 13%;
+}
+#menu #mbs ul li:nth-child(6){
+	width: 13%;
+}
+#menu #mbs ul li:nth-child(7){
+	width: 11%;
+}
