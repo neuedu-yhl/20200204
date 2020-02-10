@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>正方形超出隐藏</title>
+		<style>
+			#container{
+				width: 100px;
+				height: 100px;
+				/*超出部分隐藏*/
+				overflow: hidden;
+			}
+			#son{
+				width: 100px;
+				height: 100px;
+				background-color: #3388FF;
+				transition: all 1s;
+			}
+			#son:hover{
+				transform: rotate(45deg);
+				background-color: #800080;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="son"></div>
+		</div>
+	</body>
+</html>
