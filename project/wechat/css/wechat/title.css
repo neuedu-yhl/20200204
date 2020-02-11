@@ -1,0 +1,39 @@
+#title
+{
+	width: 100%;
+	height: 50px;
+	
+	display: flex;
+}
+#title #titleLeft{
+	flex: 0.5;
+	display: flex;
+	align-items: center;
+}
+#title #titleLeft span
+{
+	margin-left: 5%;
+}
+#title #titleRight{
+	flex: 0.5;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+#title img
+{
+	width: 23px;
+	height: 23px;
+}
+#title img:first-child{
+	margin-left: 55%;
+}
+#title #titleRight #menu{
+	width: 105px;
+	height: 123px;
+	background-color: #800080;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	display: none;
+}
