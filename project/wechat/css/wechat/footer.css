@@ -1,6 +1,24 @@
 #footer
 {
 	width: 100%;
-	height: 40px;
-	background-color: #3388FF;
+	height: 45px;
+	display: flex;
+}
+#footer .menus
+{
+	flex: 0.25;
+	height: 45px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#footer .menus img{
+	width: 25px;
+	height: 25px;
+	display: block;
+}
+#footer .menus span{
+	font-size: 12px;
 }

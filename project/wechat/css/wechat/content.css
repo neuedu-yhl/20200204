@@ -1,4 +1,59 @@
 #content{
 	flex: 1;
-	background-color: #000000;
+	background-color: indianred;
+	overflow: scroll;
+}
+#content .contents{
+	display: flex;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid whitesmoke;
+}
+#content .contents .contentsLeft{
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+}
+#content .contents .contentsCenter{
+	flex: 0.65;
+}
+#content .contents .contentsRight{
+	flex: 0.15;
+	font-size: 12px;
+}
+#content .contents .contentsLeft img
+{
+	width: 50px;
+	height: 50px;
+}
+#content .contents .contentsLeft .msg{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	color: white;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 1px;
+	right: 5px;
+}
+#content .contents .contentsCenter .top{
+	font-size: 18px;
+}
+#content .contents .contentsCenter .bottom{
+	font-size: 11px;
+}
+#content .contents .contentsRight span{
+	margin-top: 11%;
+	display: inline-flex;
+	color: #D3D3D3;
+}
+#content .contents .contentsCenter .bottom
+{
+	color: #D3D3D3;
 }
